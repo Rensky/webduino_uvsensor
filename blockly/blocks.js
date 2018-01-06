@@ -14,6 +14,7 @@ Blockly.Blocks['uv_setup'] = {
  this.setTooltip("");
  this.setHelpUrl(mainUrl + 'basic/index.html' + utmUrl);
   }
+};
 
 Blockly.Blocks['uv_pin'] = {
   init: function() {
