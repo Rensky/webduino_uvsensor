@@ -1,0 +1,1 @@
+MSG.catuv = "UV 感測器";

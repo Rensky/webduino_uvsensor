@@ -1,0 +1,21 @@
+<category id="catuv">
+  <block type="variables_set">
+    <field name="VAR">uv</field> 
+    <value name="VALUE">
+      <block type="uv_pin">
+        <field name="uno_Apin1">A0</field>
+      </block>
+    </value>
+  </block>
+  <block type="uv_sencing">
+    <value name="time">
+      <block type="math_number">
+        <field name="NUM">1000</field>
+      </block>
+    </value>
+  </block>
+  <block type="uv_display">
+    <field name="uv">uv</field>
+  </block>
+
+</category>
